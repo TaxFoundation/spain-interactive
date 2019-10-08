@@ -1,21 +1,78 @@
 {
-  "madrid": 0,
-  "murcia": 0,
-  "navarra": 0,
-  "laRioja": 0,
-  "baleares": 0,
-  "asturius": 0,
-  "cantabria": 0,
-  "canarias": 0,
-  "catalunya": 0,
-  "aragon": 0,
-  "valencia": 0,
-  "galicia": 0,
-  "vizcaya": 0,
-  "alava": 0,
-  "guipuzcoa": 0,
-  "extremadura": 0,
-  "andalucia": 0,
-  "castillaLaMancha": 0,
-  "castillaYLeon": 0
+  "alava": {
+    "score": 3,
+    "name": "Álava / Araba"
+  },
+  "andalucia": {
+    "score": 13,
+    "name": "Andalucía"
+  },
+  "aragon": {
+    "score": 17,
+    "name": "Aragón"
+  },
+  "asturius": {
+    "score": 18,
+    "name": "Asturias"
+  },
+  "baleares": {
+    "score": 10,
+    "name": "Baleares "
+  },
+  "canarias": {
+    "score": 6,
+    "name": "Canarias"
+  },
+  "cantabria": {
+    "score": 7,
+    "name": "Cantabria"
+  },
+  "castillaLaMancha": {
+    "score": 9,
+    "name": "Castilla-La Mancha"
+  },
+  "castillaYLeon": {
+    "score": 8,
+    "name": "Castilla y León"
+  },
+  "catalunya": {
+    "score": 19,
+    "name": "Cataluña"
+  },
+  "extremadura": {
+    "score": 15,
+    "name": "Extremadura"
+  },
+  "galicia": {
+    "score": 12,
+    "name": "Galicia"
+  },
+  "guipuzcoa": {
+    "score": 4,
+    "name": "Guipúzcoa / Gipuzkoa"
+  },
+  "laRioja": {
+    "score": 5,
+    "name": "La Rioja"
+  },
+  "madrid": {
+    "score": 2,
+    "name": "Madrid"
+  },
+  "murcia": {
+    "score": 11,
+    "name": "Murcia"
+  },
+  "navarra": {
+    "score": 14,
+    "name": "Navarra"
+  },
+  "valencia": {
+    "score": 16,
+    "name": "Valenciana"
+  },
+  "vizcaya": {
+    "score": 1,
+    "name": "Vizcaya / Bizkaia"
+  }
 }

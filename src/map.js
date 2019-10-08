@@ -8,7 +8,7 @@ const Spain = (props) => (
 	style={{strokeWidth: '3px', enableBackground: "new 0 0 3300 1885"}}
 >
 	<path
-		style={{strokeWidth: '3px', fill: '#bbb', stroke: '#000', strokeMiterLimit: 10}}
+		style={{strokeWidth: '3px', fill: '#bbb', stroke: '#fff', strokeMiterLimit: 10}}
 		d="M991,526.7l-0.6,0.5l-0.1,0.1l-0.3,0.3l-0.7,0.8l-0.4,0.2l-1.2,0.4l-0.5,0.2l-0.2,0l-0.9,0
 		l-1.2,0.1l-0.1,0.1l-1.4,1.5l-1.7,0.5l-2,1.3l-1.5,1l-2.6,1.1l-1.3,1.5l-1.2,0.7l-0.8,0.2l-3.5-0.2l-0.8,0.2l-1.9,1.4l-1.1,0.2
 		l-1.6-0.3l-2.5,0.8l-1.5,0.1l-0.9-0.4l-3.8-0.2l-2.6,0.7l-0.9,0l-0.8,0.1l-2.4-0.3l-1.2,0.4L946,540l-0.9,2.7l-1.1,1l-3.9,0.8
@@ -164,7 +164,7 @@ const Spain = (props) => (
 		l0-0.8l-0.4-2.8l-0.6-3.2l-0.5-3.9l-0.1-2.4l-0.1-0.9v-0.6l-0.1-0.1l-0.5-0.4h-0.1L991,526.7z"/>
 	<path
 		id="madrid"
-		style={{strokeWidth: '3px', fill: (props.madrid ? props.madrid : '#fff'), stroke: '#000'}}
+		style={{strokeWidth: '3px', fill: (props.madrid ? props.madrid : '#fff'), stroke: '#fff'}}
 		d="M1649.5,713.5l-2.8,1.4l-1.3-0.4l-1.3,0.2l-3.2,2.8l-1.5,0.7l-1,1.1l-1.6,2.9l-1,0.9l-1.9,3.8
 		l-2.5,2.1l-1.4,0.6l-1.2,0.4l-1.2,1l-3.1,1.5l-0.7,1.2l-1.2,1l-0.9,1.4l-0.9,2.7l-1.2,1.5l-0.5,1.3l-0.8,1.2l0.1,1.3l-1.2,1.1
 		l-4.2,1.9l-1.5,0.3l-1.3,0.1l-1.6,0.5l-1.9,1.1l-1.4,0.4l-1.3-0.1l-1.2,0.7l-1.5,0.3l-1,1.3l-0.7,1.2l-0.6,1.5l-0.8,1.2l-0.7,1.4
@@ -212,7 +212,7 @@ const Spain = (props) => (
 		M1547.5,804.4l-2.7,0.1l-3.5,2.6v2.8l8.6-0.3l0.4-1.6L1547.5,804.4z M1676.1,811.8l0.5,0.2l0.5,0.5l-0.5,1.8l-1.1,0.8l-0.8-0.4
 		l-0.2-0.6l0.1-0.7l1-1.2L1676.1,811.8z"/>
 	<path
-		style={{strokeWidth: '3px', fill: '#bbb', stroke: '#000'}}
+		style={{strokeWidth: '3px', fill: '#bbb', stroke: '#fff'}}
 		d="M1984-41.6l-0.2,1.3l-0.3,2.3l0,3.4l-0.4,2.4l-0.2,1.1l-0.6,9.3l-0.8,5.4l-0.1,1.2l-1,11.1
 		l-2.1,13.9l-1.9,12.7l-0.5,5.4l0.1,2.5l-0.8,2.9l-0.1,1.4l-0.4,7.5l0.1,1.2l0.1,0.4l0.6,1l0.5,0.2l0.6-0.2l0.1-0.2l0.2-0.3l0.1-0.1
 		l0.1-0.3l0.6-3.2l-0.4-0.2l-0.6,0.6l0,0.1v-0.1l0-0.7l1.2-1.6l0.3-0.9l-0.1-3.7l0.1-0.8l0.2-1.2l0.8-1.3l0.8-2.9l1.6-2.4l0.1-0.1
@@ -432,7 +432,7 @@ const Spain = (props) => (
 		l0.2,0.1l0.2,0.2L2579.9,369.8z M2434.9,459.2l0.3,0.1l0.7,0.2l-0.4,3.3l-0.1,0.6l0.6,1.6l0.7,0.5l1.3,0.9l0.3,0.6l0.1,0.3l0.1,0.4
 		l-0.4,0.8l-4.9-0.6l4.6,0.5l0.4-0.8l-0.2-0.4l-0.1-0.3l-0.3-0.6l-1.3-0.9l-0.7-0.5l-0.6-1.6l0.1-0.6l0.4-3.3L2434.9,459.2z"/>
 	<path
-		style={{strokeWidth: '3px', fill: '#bbb', stroke: '#000'}}
+		style={{strokeWidth: '3px', fill: '#bbb', stroke: '#fff'}}
 		d="M3333.3,134.9V-41.7h-234.8l0.2,1.5l1.6,2.4l2.3-0.8l1.4,0.4l3.9-0.6l1.1,0.9l1.2,3.3l0.1,1.7
 		l-0.2,0.3l-0.4,0.6l-0.3,0.4l1.7,2.3l0.6,2.3l-1,4.3l0.2,0.8l0.1,0.7l0.2,1.3l-0.2,3.5l0.8,1.2l2.7,1l1.8,2.1l2.2,1.2l1,2l7.9,4.8
 		l2.7-0.1l1.2,1l3.1,0l2.8-3.5l0.7-0.2l2.3,2.4l2.5,0.9l4,0.7l0.1,0.2l1.1,2.3l1.4,0.9l0.4,1.8l-2.1,4.2l-0.2,1.5l2.7,2.5l0.5,1.4
@@ -453,7 +453,7 @@ const Spain = (props) => (
 		l0.9-2.7l0.2-0.3l0.5-0.5l3.5-1.2l0.5-0.7l-1.1-3.3l-0.2-1.9l0.2-2l1-2.1l1-1.2l2-1.5l2.4-2.8l0.6-0.4l1-0.8l0.1-0.3l0.6-1.4V152
 		l0.4-3.2l2.3-5.7l1.4-2l1.4-1.9l0.1-0.2l0.6-1.3l1.3-1.2l1.4-0.8L3333.3,134.9z"/>
 	<path
-		style={{strokeWidth: '3px', fill: '#bbb', stroke: '#000'}}
+		style={{strokeWidth: '3px', fill: '#bbb', stroke: '#fff'}}
 		d="M1387.4,1663.4l-1.4,1.3l-1.1,0.4l-1.1-0.4l-0.8,0.2l-1,1l-0.7-0.1l-1.2-1.1l0-0.1l-0.7-0.1
 		l-1.4,0.9l-1.1,0.1l-0.8,0.1l-0.7,0.6l-1,2.6l-0.8,0.9l-2.2,2.3l-2.1,1.3l-1.5,2l-0.2,0.2l-6.4,2.9l-1.3,0.4l-2.3-0.2l-1.8-0.8h0
 		l-1.2,0.2l-1.2,0.6l-0.2,0.1l-2.1,0.1l-3.9-1.1l-0.4-0.1l-0.1-0.1l-2.1,0.8l-1.9,0.2l-1.6,1.6l-1.2,0.6l-0.8,0.8l-2.1,3.4l-1,1.1
@@ -498,13 +498,13 @@ const Spain = (props) => (
 		l-1.2-3.1v-0.1l-0.5-1.6l-1.2-4.1l-0.1-0.8v-0.1v-0.1l-1.2-9.4l-0.1-3.4l0.5-6.5v-0.1l0.7-2.6l-1-0.8l-0.2-0.1l-2.2-1.6l-3.4-5.1
 		l-0.7,0.5l-0.5-0.1l-0.8-1.6L1387.4,1663.4z"/>
 	<path
-		style={{strokeWidth: '3px', fill: '#fff', stroke: '#000'}}
+		style={{strokeWidth: '3px', fill: '#fff', stroke: '#fff'}}
 		d="M1809.1,1791.5l-0.3,0.4l0.6,0.8l1.2,0.2l0-0.6l-0.5-0.5L1809.1,1791.5z"/>
 	<path
-		style={{strokeWidth: '3px', fill: '#fff', stroke: '#000'}}
+		style={{strokeWidth: '3px', fill: '#fff', stroke: '#fff'}}
 		d="M1994.6,1696.2l-0.8,0.5l-1.2,1.3l0.5,0.8l0.5,0.1l1-1.6l0.2-0.6L1994.6,1696.2z"/>
 	<path
-		style={{strokeWidth: '3px', fill: '#bbb', stroke: '#000'}}
+		style={{strokeWidth: '3px', fill: '#bbb', stroke: '#fff'}}
 		d="M3072.3,1457.9l-2.8,1.1l-2.5,0.4l-2.5-0.2h-0.9l-0.4-0.3l-2.6,1.1l-3.1,0.5l-1.6,0.9l-1.6,0.5
 		l-0.9,0.2l-3.2,4l-1,0.8l-3.4,1.4l-1.3,0.5l-1.6,1.4l-0.1,2.3l-1.4,1.4l-0.6,2l-0.7,0.4l-0.4,0.6l0.3,0.8l0.4,0.4l1.4,1.3l0.5,1.9
 		l0.7,0.6l-0.8,2.1l-0.8,0.8l-0.3,1.2l-0.7,0.9l-1.9,1.2l-1.1,0.8l-1.5,1l-2.5,0.9l-1.5-0.1l-2.8,1.3l-2.3-0.1l-1.2,0.8l-6.6,2.4
@@ -613,7 +613,7 @@ const Spain = (props) => (
 		l0.2-1l0.8-2.1l-0.1-0.6l-0.3-0.1l-1.1,0.6l-1,0.1l-1.3-0.4l-0.9-2.2l-2.3-2.6l-1.3-0.8l-2.1-0.1L3072.3,1457.9z"/>
 	<path
 		id="murcia"
-		style={{strokeWidth: '3px', fill: (props.murcia ? props.murcia : '#fff'), stroke: '#000'}}
+		style={{strokeWidth: '3px', fill: (props.murcia ? props.murcia : '#fff'), stroke: '#fff'}}
 		d="M1822.3,1290.9l0.2-0.8l-0.2-1.3l0.9-1.1l0.6-1.7l-0.1-1.4l0.7-1.2l0.7-1.1l1.1-0.6l0.9-1.3
 		l3.1-3.2l1.9-2.2l0.8-1.2l2.2-2.1l-0.1-1.4l1-2.9l2-2l0.3-1.7l0.6-1.2l0.3-1.6l0.9-1.1l1.4-0.8l1.3-0.3l1-1.1l1.4-2.7l1.3-0.6
 		l4.3-0.5l1.3-0.6l1.1-0.9l2.4-1.1l0.7-1.2l1-1.2l1.2-0.8l0.3-1.3l0.8-1.3l0.9-1l0.6-1.2l0.8-1.1l1.8-2.2l1.3,0.5l1.2,0.9l1.3-0.7
@@ -654,17 +654,17 @@ const Spain = (props) => (
 		l-0.6-1.1l-1.2-0.6l-0.7-1.2l-0.9-1.1l-0.6-1.1l-1.1-0.8l-0.4-1.3l-1.1-0.8l-0.1-2.6l-0.7-1.3l-1-0.9l-1-1.2l-1.1-0.9l-1.4-0.5
 		L1822.3,1290.9" />
 	<path
-		style={{strokeWidth: '3px', fill: '#fff', stroke: '#000'}}
+		style={{strokeWidth: '3px', fill: '#fff', stroke: '#fff'}}
 		d="M1389.9,1664.9l1.1-0.7l2.3,0l0.7,0l1.1,0.5l0.8,1.1l0.2,1l0.6,1l0,0l2.1,0.9l0.9,0l1.5-0.5l1-0.7
 		l0.9-0.6l1.4-0.4l0.2,0.1l0,0l0.5,0.3l0.2,0.8l-0.3,0.4l-0.4,0.5l-1,0.4l-0.4,0.1l-1,0.3l-3.6,0.8l-1.1,0.8l-0.3,0.2l-0.6,1.1l0,0
 		l-1-0.7l-0.2-0.1l-2.2-1.5L1389.9,1664.9"/>
 	<path
-		style={{strokeWidth: '3px', fill: '#fff', stroke: '#000'}}
+		style={{strokeWidth: '3px', fill: '#fff', stroke: '#fff'}}
 		d="M1734.6,1766.6l1.5,1.5l0.5,2l0.6,0.9l1,0.9l-0.1,0.5l-0.8,0.3l-0.3,0.9l0.3,0.8l1.1,1.1l0.4,0.4
 		l0,0l-0.5,0l-2.1,0.2l-0.9,0.1l-0.8,0.1l-0.5,0l-1.5-1.5l-0.5-2l0-0.1l0.3-2.4l0.4-0.9l0.5-1L1734.6,1766.6"/>
 	<path
 		id="navarra"
-		style={{strokeWidth: '3px', fill: (props.navarra ? props.navarra : '#fff'), stroke: '#000'}}
+		style={{strokeWidth: '3px', fill: (props.navarra ? props.navarra : '#fff'), stroke: '#fff'}}
 		d="M1917,301.2l-3,0.3l-1.1,0.1l-2.2,1.1l-1.4,0.7l-0.1,0.1l-1.8,1.6l-1.5-0.4l-1.2,0.9h-2.9
 		l-1.1,1.2l-0.7,1.4l-0.8,1.2l-0.3,1.5l0.2,1.7l-0.6,1.5l-2.3,2l-0.7,1.2l-1.3,0.7l-1.4-0.3l-1,1.3l-1.4,0.6l-0.2-1.3l-0.4-1.4
 		l-1.5,0.2l-1.1,1.2l0.1,1.4l0.8,1.4l-1.9,0.2l-0.9-0.3l-0.9-0.5l-0.8-1.9l-0.5,0l0.1,2l-0.1,1.6l-0.7,1.3l-0.5,1.4v1.5l0.3,1.8
@@ -712,7 +712,7 @@ const Spain = (props) => (
 		l-1.4,0.6l-1.4,0.1l0,1.7l-0.6,1.5l-0.7,1.2l1.2,0.7l1.5-0.6l2.4-1.4l0.4-1.3l0.2-1.4l0.7-1.2l-0.3-1L1989.7,470.3L1989.7,470.3z"/>
 	<path
 		id="la-rioja"
-		style={{strokeWidth: '3px', fill: (props.laRioja ? props.laRioja : '#fff'), stroke: '#000'}}
+		style={{strokeWidth: '3px', fill: (props.laRioja ? props.laRioja : '#fff'), stroke: '#fff'}}
 		d="M1749.4,431.7l0.9,0.1l0.7,0.8l0.2,1l-0.4,1l-0.1,0.9l0.2,1l0.5,1.1l-0.1,1.9l-1.1,1.7l-0.4,1
 		l0.9,0.1l3.8-1.9l0.9,0.5l0.2,1.2l-0.8,0.6l-1.9,0.4l-0.9,0.5v1.1l1.6,2.6l0.4,0.9l0.7,0.6l1.3-1.5l0.6-0.9l1.3-1.1l0.9-1.1l0.7-1.3
 		l1.2-0.6l0.2-1.4l-0.2-1.6l0.2-1.4l0.9-1.1l0.6-1.4l1.4-0.4l1.4,0.2l1.2,0.9l0.8,1.5l1.1,1.1l1.4,1l3,1.1l1.1,1.1l-0.4,1.3l0.3,1.5
@@ -753,7 +753,7 @@ const Spain = (props) => (
 		M1730.5,440.3l1-1.6l0.1-1.5l-1.5-0.8l-0.8,1.8l-0.1,1.3L1730.5,440.3" />
 	<path
 		id="baleares"
-		style={{strokeWidth: '3px', fill: (props.baleares ? props.baleares : '#fff'), stroke: '#000'}}
+		style={{strokeWidth: '3px', fill: (props.baleares ? props.baleares : '#fff'), stroke: '#fff'}}
 		d="M2733,912.6l-0.1,0.3l1.2,1l-0.3,2.4l-0.5-0.2l0.1,1.2l-0.9,0l-0.9,1.1l-1.7,0.5l-0.3,0.3
 		l-0.5,0.6l-3.1-2.8l-0.6-0.2l-0.5,0.2l-1,1.3l-1,0.2l-2.2,0l-1.2,1.5l-2.2-0.8l-0.8-0.8l-1.2-0.4l-1.5,0.7l-1-0.8l-0.8-0.2l-0.5,0.9
 		l-0.6,0.1l-0.5,0.6l0.8,1.3l-1.3,0.3l-1.2-0.9l-0.2-0.2l-0.7-1.2l-4.1,0.7l-3-0.2l-2.5,1.2l-1.7-0.3l-1.5,3.2l-0.8,0.3l0,1.1
@@ -821,7 +821,7 @@ const Spain = (props) => (
 		l-0.3,0.1l-1,0.2l-0.8-0.2l-1.6-1.8L2357.4,1158.6z" />
 	<path
 		id="asturius"
-		style={{strokeWidth: '3px', fill: (props.asturius ? props.asturius : '#fff'), stroke: '#000'}}
+		style={{strokeWidth: '3px', fill: (props.asturius ? props.asturius : '#fff'), stroke: '#fff'}}
 		d="M1514.2,286.8l-0.2,0.8l-0.4,0.9l-1.9,0.7l-0.9,0.6l0,1l-0.5,0.9l-0.4,2l-0.3,1.1l1.2,0.7l1.3,1
 		l-0.4,1.4l1,1.4l0.6,1.3l0.2,1.4l0.1,1.4l-0.7,1.6l-0.3,1.4l-2,2.4l-1.5,0.6l-1.1-1l0.2-1.5v-1.4l-1.3-0.7l-1.5,0.2l-1.3-0.3
 		l-3.1-1.4l-0.7,0.9l-1.6,1.2l-0.6,0.9l-0.5,1.1l0.2,1.2l-1.3,0.3l-1.1,1l-4.4,0.1l-1.2-0.8l-1.4,0.2l-4,1.5l-0.6,1.2l-0.2,1.4
@@ -878,7 +878,7 @@ const Spain = (props) => (
 		l0.9-0.9l0.8,0.2l1-0.8l0.8-0.2l1.3-0.8l1.2-0.1l1.2,0.3l1.3,1.4L1514.2,286.8" />
 	<path
 		id="cantabria"
-		style={{strokeWidth: '3px', fill: (props.cantabria ? props.cantabria : '#fff'), stroke: '#000'}}
+		style={{strokeWidth: '3px', fill: (props.cantabria ? props.cantabria : '#fff'), stroke: '#fff'}}
 		d="M1645.3,262l-1.3,0.6l-0.2,0.2l-1.2,1.5l-0.3,0.3l-0.4,0.5h-2.1l-2.8,0l-0.9,1.2l-0.4,0.4
 		l-0.3,0.2l-0.4,0.2l-1.1,0.7v1l-0.5-0.1l-0.6-0.1l-0.5,0.3l-1.1,0.6l-1.7-0.9l-0.8,0l-2.8,1.6l-0.4,1.3l-0.1,0.3l-0.8,0.6h-0.1
 		l-2.5,0.2l-1.8-0.2l-0.6,0.4l2.7,0.7l0,0.1l0.3,0.7l-0.2,0.6l-0.4,1.1l0.4,0.9h0.3l0.3,0l1.4-0.8l0.1,0.4l-0.7,1l-0.3,0.2l-0.3,0.2
@@ -935,7 +935,7 @@ const Spain = (props) => (
 		l-0.9-1.4l0.2-1.5l-0.7-2L1571.6,395.6z M1562.2,396.3l1.3,0.3l1,1.1l-0.8,1.2l-1.3,0.5l-1-1.6L1562.2,396.3z"/>
 	<path
 		id="canarias"
-		style={{strokeWidth: '3px', fill: (props.canarias ? props.canarias : '#fff'), stroke: '#000'}}
+		style={{strokeWidth: '3px', fill: (props.canarias ? props.canarias : '#fff'), stroke: '#fff'}}
 		d="M776.4,1484l-0.4,0.1l-0.7,1l-1.1,0.3l-0.6,0.6l-0.5,1.3l-0.1,1.7l0.4,1l0.7,0.2l0.8-0.1l1.1-0.6
 		l0.5,0l0.4,0.3l0.4-0.1l0.5-1.5l0.9-0.4l0.7-1.8l-0.3-0.6L776.4,1484z M772.5,1501.6l-0.7,1.2l0.2,0.9l-0.1,0.7l0.2,0.4l0.9-0.2
 		l0.2-0.3l0.4-1.3l-0.6-1.2L772.5,1501.6z M776.5,1504.9l-0.5,0.1l-0.5,0.5l-0.7,2.1l-0.8,1l-0.2,0.6l0.3,0.7l-0.7,1.7l0.1,0.9
@@ -1010,7 +1010,7 @@ const Spain = (props) => (
 		l-0.9-1.6l-1.8-1.1l-0.1-0.1l-0.8-0.4l-0.7-0.6L147.7,1736.3z" />
 	<path
 		id="catalunya"
-		style={{strokeWidth: '3px', fill: (props.catalunya ? props.catalunya : '#fff'), stroke: '#000'}}
+		style={{strokeWidth: '3px', fill: (props.catalunya ? props.catalunya : '#fff'), stroke: '#fff'}}
 		d="M2253.9,387.8l-2,0.6l-1.5,2.8l-0.2,0.2l-1.4,1l0.2,4.9l-0.3,1.8l-2.6,3.3l-0.1,1l2.2,1.4
 		l-0.5,2l-0.4,0.6l-0.1,1.2l1.2,2.3l0.2,1.2l0.2,1.2l1,2.2l-0.1,3.7l1,2.1l-0.1,1.4h-0.3l0.3,1.2l0.6,1.1l2,2.3l0.4,1.4l-0.2,1.4
 		l0.7,1.2v1.5l0.8,1.3l1.1,0.9l1.4,0.4l1.1,1l1.5,0.1l1.3-0.5l1.8,0.6l0.7,0.9v0.9l-0.2,1l-0.7,0.7l-0.3,2.1l0.1,1.1l-0.2,2.2
@@ -1097,7 +1097,7 @@ const Spain = (props) => (
 		L2270.6,799.2z" />
 	<path
 		id="aragon"
-		style={{strokeWidth: '3px', fill: (props.aragon ? props.aragon : '#fff'), stroke: '#000'}}
+		style={{strokeWidth: '3px', fill: (props.aragon ? props.aragon : '#fff'), stroke: '#fff'}}
 		d="M2047.1,377l-1.4,0.3l-1.4-0.1l-0.9,1.1l-1.2,0.8l-1.3,0.4l-1.1,0.9l-1.4,0.5l-0.3,1.4v1.3l0.8,1.3
 		l-1.7,2.3l-1.1,0.9l-1.9,2.3l-1.1,1.1l0.1,1.5l-0.3,1.3l0.4,1.4l0.6,1.4l0.1,1.4l-1.2,0.8l-0.2,1.4l1,1.1l0.4,1.3l-1.9,4l-0.8,1.1
 		l-1.5-0.2l-1.2-0.9l-1.2,0.7l-0.6,1.3v1.3l-0.8,1.1l-1.1,0.1l-1.6,0.6l-1,1.1l-1.3,2.6l-1.1,1l-1.2,0.8l-2.7,1.1h-1.4l-1.4,0.8
@@ -1188,7 +1188,7 @@ const Spain = (props) => (
 		l1.4-0.1l1.4-0.6L1989.7,470.3z" />
 	<path
 		id="valencia"
-		style={{strokeWidth: '3px', fill: (props.valencia ? props.valencia : '#fff'), stroke: '#000'}}
+		style={{strokeWidth: '3px', fill: (props.valencia ? props.valencia : '#fff'), stroke: '#fff'}}
 		d="M2131.3,784.6l-4.1,0.5l-1.1,0.8l-0.3,1.3l-0.8,1.2l-1.1,0.9l-1.5,2.4l-0.1,1.5l-0.5,1.3v1.4
 		l-0.2,1.5l0.6,2.8l-0.6,1.3l-1.4,0.4l-1.2,0.7l-1.3,0.2l-1.2,0.8l-1.2,0.5l-1.5,0.9l-0.6,1.2l-1.1,0.9l-1.2,0.5l-1.3,0.1l-0.6-1.3
 		l-0.2-1.4l-1.1-0.9l-3,0.4l-2.5,1.4l-2.2,1.7l0.3,1.6l1.1,1l-0.4,2.8l-0.4,1.3l0.3,1.3l1.5,0.7l1.3,0.4l1.3-0.5l0.7,1.3l2.8,0.9
@@ -1262,7 +1262,7 @@ const Spain = (props) => (
 		l-0.8-1.2l0.3-1.4l-0.3-1.3L1969.3,891.4z" />
 	<path
 		id="galicia"
-		style={{strokeWidth: '3px', fill: (props.galicia ? props.galicia : '#fff'), stroke: '#000'}}
+		style={{strokeWidth: '3px', fill: (props.galicia ? props.galicia : '#fff'), stroke: '#fff'}}
 		d="M1065.1,207.6l-1,2.5l-3.5,2.8l-0.1,1l-0.3,0.7l-0.4,0.8l-0.5,0.2l-1.4-0.6l-2.4,1.3l-0.9,1
 		l-1.6,0.3l-1.8,1l-0.6-0.1l-0.3-0.5l-0.4,0.1l-1.3,2l-0.2-0.5l-1,0.7l-0.3,0.9l0.2,1l-1.1,0.2l-0.5,0.4l-0.3,1.6l0.3,0.9l1.1,0.1
 		l0.2,0.4l0.2,0.2l0.1,0.2l-0.2,0.1l-0.3,0.1l-1.2,0.4l-0.8,0.9l-0.8,0l0-1.4l-1.1,0.2l-0.3-0.2l-0.5-1.2l-0.5-0.4l-0.6,0.5l-1.1-0.3
@@ -1391,7 +1391,7 @@ const Spain = (props) => (
 		l-0.4-0.8l-0.9-0.1l-0.8-1.2L891,514.2z" />
 	<path
 		id="vizcaya"
-		style={{strokeWidth: '3px', fill: (props.vizcaya ? props.vizcaya : '#fff'), stroke: '#000', strokeLinecap:'round', strokeLinejoin:'round'}}
+		style={{strokeWidth: '3px', fill: (props.vizcaya ? props.vizcaya : '#fff'), stroke: '#fff', strokeLinecap:'round', strokeLinejoin:'round'}}
 		d="M1764,273.8l-4,1.9l-2.1,0.3l-1.1,0.8l-0.8,1.5l-1.2-0.4l-3.3-0.3l-2.7,0.1l-3.9-0.6l-1.3,0.6
 		l-2.2-0.7l-2.2,0.7l-2.1-0.2h-0.3l-0.5,0.7l0.3,4.4l0.1,1.7l-0.9-0.7l0-0.6l-0.1-0.1l-0.5-0.8l-1.9-0.2l-1.8,2.6l-1.2,0.9l-1.1,1.3
 		l-1.2,0.8l-1.7,0.1l-1.7,0.9l-0.4,1.1l0.1,0.9l1.3,2.3l0.1,0.8l0.2,0.2l0.3,0.4l0.3,0.3l0.3,1.8l0.3,1.8l0.3,0.4l0.3,0.4h0l0.2,0.3
@@ -1447,7 +1447,7 @@ const Spain = (props) => (
 		c0.1-0.4,0.1-0.9-0.1-1.3C1724.1,352.3,1723.7,352,1723.1,352z"/>
 	<path
 		id="alava"
-		style={{strokeWidth: '3px', fill: (props.alava ? props.alava : '#fff'), stroke: '#000', strokeLinecap:'round', strokeLinejoin:'round'}}
+		style={{strokeWidth: '3px', fill: (props.alava ? props.alava : '#fff'), stroke: '#fff', strokeLinecap:'round', strokeLinejoin:'round'}}
 		d="M1724.9,319c-0.2,0.1-0.4,0.3-0.5,0.5c-0.3,0.5-0.4,1.2-0.4,1.5c0,0.4,0.3,0.7,0.8,0.8
 		s1,0.2,1.3,0.2c0.2,0-0.5,1.1-0.7,1.7c-0.3,1.1-0.5,1.8-0.5,3.1c0,0.5-0.3,0.9-0.5,1.3s-0.5,0.9-0.5,1.5c0,0.2-0.4,0.2-0.9,0.2
 		s-1.1-0.2-1.4-0.2c-0.3,0-0.7,0.4-1.2,0.8s-0.8,0.8-1.1,1c-0.7,0.4-1.2,0.8-1.6,0.9c-0.2,0.1-0.4,0.1-0.6,0s-0.5-0.3-0.8-0.7
@@ -1521,7 +1521,7 @@ const Spain = (props) => (
 		l1.5-1.5l1.3-1.8v-0.9l1-0.4l0.3-1l1,0.7l1.3,0.7l1.1-0.1l0.8-0.7l1.1-0.3h1.1l1,0.4l1-0.2l1-0.6l0.9,0.1L1765,401.2z"/>
 	<path
 		id="guipuzcoa"
-		style={{strokeWidth: '3px', fill: (props.guipuzcoa ? props.guipuzcoa : '#fff'), stroke: '#000', strokeLinecap:'round', strokeLinejoin:'round'}}
+		style={{strokeWidth: '3px', fill: (props.guipuzcoa ? props.guipuzcoa : '#fff'), stroke: '#fff', strokeLinecap:'round', strokeLinejoin:'round'}}
 		d="M1811.7,299.3c-0.2,0.6-0.4,1.1-0.6,1.8c-0.1,0.4-0.3,0.6-0.4,0.8c-0.2,0.1-0.4,0.2-0.6,0.2
 		c-0.2,0-0.5,0-0.7,0.1s-0.4,0.2-0.7,0.5c-0.4,0.5-0.6,0.7-0.6,0.9c0,0.2,0,0.2,0.1,0.4s0.2,0.3,0.2,0.6s-0.1,0.9-0.3,1.7
 		c0.3,0.5,0.9,1.1,1.6,1.7c0.6,0.6,1.2,1.2,1.2,1.8c0,0.5,0.1,0.9,0.1,1.2c0,0.3-0.1,0.6-0.5,1c-0.8,0.8-1.3,1.7-2.2,2.5
@@ -1560,7 +1560,7 @@ const Spain = (props) => (
 		l-1.1,0.1l-0.9-0.4l-0.7-1.2l-2.5-1.3L1811.7,299.3z"/>
 	<path
 		id="extremadura"
-		style={{strokeWidth: '3px', fill: (props.extremadura ? props.extremadura : '#fff'), fillOpacity:0, stroke:'#000'}}
+		style={{strokeWidth: '3px', fill: (props.extremadura ? props.extremadura : '#fff'), stroke:'#fff'}}
 		d="M1181.3,880.9l1,1.1l0.7,1.4l1.5,0.9l2.9,1.2l1.3,0.4l1.3-0.6l0.5-1.2l1.4-0.2l0.7,1.1
 		l1.3-0.1l1.1,1l1.4-0.8l3.5-2.7l1.1-0.7l1.3,0.3l1.3,2.5l1.5,0.4l1.3-0.2l1.7-2.4l1.3-0.6l1.7-0.4l2.6-0.1l1.5,0.2l3-0.7l1.5,0
 		l1.4-0.6l3.4-2.7l0.5-2.7l-0.6-1.4l-0.8-1.1l-0.1-1.3l1.1-1.2l0.8-1.2l2.5-1.4l1.9-2.1l1.3-0.6l2.8-0.8l1-0.9l1.4-0.3l1.1-0.8
@@ -1639,7 +1639,7 @@ const Spain = (props) => (
 		l1.1-1l0.8-1.8l0.5-0.2l0,0l0,0l6.8-0.4l2.9-0.6l2.5-1.2L1181.3,880.9"/>
 	<path
 		id="andalucia"
-		style={{strokeWidth: '3px', fill: (props.andalucia ? props.andalucia : '#fff'), stroke: '#000'}}
+		style={{strokeWidth: '3px', fill: (props.andalucia ? props.andalucia : '#fff'), stroke: '#fff'}}
 		d="M1436.4,1163.9l-0.4,0.8l-1.8,0.8l-0.8,0.6l-3,0.2l-1.4-0.7l-1.2-0.9l-3,0.8l-2.6-0.3l-1.3,0.3
 		l-1.3-0.3l-0.1,1.2l0.7,1.2l0.9,1l0.8,1.2l0.6,2.9l-0.1,0.1l-1.9,0l-0.7,0.6l0.2,0.9l0.5,0.8l-0.6,0.7l-1.9-0.8l-1-0.2l-2.5,1.2
 		l-1,1.8l-2.3,1.7l-0.8,0.4l-1.6,1.1l-0.8,0.4l-0.5,0.9l-2.3,1.8l-0.9,0.2l-0.8,0.8l-0.1,0.9l-0.8,0.6l-1.1,1.6l0.6,0.7l0.2,1
@@ -1754,7 +1754,7 @@ const Spain = (props) => (
 		l-0.5-0.7L1436.4,1163.9z M1723.3,1659.1l-0.8,0.8l-0.2,0.9l0.2,0.7l0.8,0.4l0.8-0.4l0.3-1.4l-0.2-0.9L1723.3,1659.1z"/>
 	<path
 		id="castilla-la-mancha"
-		style={{strokeWidth: '3px', fill: (props.castillaLaMancha ? props.castillaLaMancha : '#fff'), stroke: '#000'}}
+		style={{strokeWidth: '3px', fill: (props.castillaLaMancha ? props.castillaLaMancha : '#fff'), stroke: '#fff'}}
 		d="M1742.3,682.6l-1.4,0.4l-1.3,1l-1.4,0.2l-1.6,2.4l0.2,1.5l-1.4,0.2l-1.2,1.1l-1.6-0.1
 		l-1.6,0.9l-1.6,0l-1.2,0.8l-1.4-0.8l-2.7,0.4l-2.4,1.7l-3,0.3l-1.6-0.3l-1.1-1.1l-3.1-0.2l-0.8-1.2l-1.4-0.5l-1.4,0l-1.3,0.4
 		l-1.1-0.9l-5.4-1.1l-1.4-0.2l-2,0.4l-1.2,0.9l-1.9,2.4l-0.1,1.5l-0.8,1.1l-1.8,2.1l-0.5-1.3l-0.8-1.2l-1.2-0.7l-1.5,0.8l-0.5,1.3
@@ -1895,7 +1895,7 @@ const Spain = (props) => (
 		l-0.1,0.7l0.2,0.6l0.8,0.4l1.1-0.8l0.5-1.8l-0.5-0.5L1676.1,811.8z"/>
 	<path
 		id="castilla-y-leon"
-		style={{strokeWidth: '3px', fill: (props.castillaYLeon ? props.castillaYLeon : '#fff'), fillOpacity:0, stroke:'#000'}}
+		style={{strokeWidth: '3px', fill: (props.castillaYLeon ? props.castillaYLeon : '#fff'), stroke:'#fff'}}
 		d="M1459.3,315.5l-1.6,0.2l-2.4,1.9l-2.7,0.9l-1.1,0.9l-1.3,0.5l-3.3,3.2l-0.8,1.4l-0.3,1.3
 		l-1,1l-2.4-1.6l-4.1,0.2l-1.3,0.8l-1.3-0.2l-1.1,1.1l-0.1,1.5l-1.5,2.4l-0.7,1.3l0.1,1.5l-0.6,1.3l-0.2,1.5l-0.4,1.4l0.1,1.5
 		l-2.4,1.8l-1.5,0.8l-1.4-0.4l-0.9-1.2l-0.4-1.4l-1.4-0.5l-2.4,1.8l-1.4,0.5l-1.2,0.8l-2.6,1.3l-1.1,1l-1.3-0.1l-1.4-0.6l-1.4,0.2
@@ -2061,12 +2061,12 @@ const Spain = (props) => (
 		l-0.4,1.6l-8.6,0.3V807l3.5-2.6L1547.5,804.4z"
   />
   <path
-    style={{strokeWidth: '3px', fill: '#fff', stroke: '#000'}}
+    style={{strokeWidth: '3px', fill: '#fff', stroke: '#fff'}}
     d="M1396.1,1631.1l-0.5-0.5l-0.3-0.3l-0.3-1.6l-0.6-1l-0.2-1.2l0.2-0.6l-0.3-0.9l0.2-0.5l0.4-0.9
     l-0.1-0.8l0,0l1.9,0h0l0,0l0,0.2l-0.2,2.4l0.3,1.2l-0.5,2.6l0.3,0.8l0.2,0.6L1396.1,1631.1L1396.1,1631.1"
   />
   <path
-    style={{strokeWidth: '3px', fill: '#bbb', stroke: '#000'}}
+    style={{strokeWidth: '3px', fill: '#bbb', stroke: '#fff'}}
     d="M2400.7,446.9l-0.6,0.9l-0.2,1l0.1,0.9l0,0.2l-1.3,3.7l-0.3,2.7l0.3,1.8l0,0l-3.1,2.2l-1.3-0.2
     l-2.6-1.8l-0.6,0l-0.3,0.4l-0.7,2.5l0.1,0.6l-2.6,2.9l-2.5,0.3l-3.6,1.5l-2,1.3l-2.5-0.2l-3.3,2.8l-4.4,0.9l-0.3,0.1l-5.6-0.7
     l-0.3,0l-0.2-0.1l-0.2-0.1l-0.8-0.3l-1.7-1.4l-0.6-3.8l-2.5-2.9l-0.1-0.5l0.3-1l3.9-3.3l0.4-0.6l0.2-1.1l-0.1-0.8l-2.2-3.8l-0.9-0.2
@@ -2076,16 +2076,16 @@ const Spain = (props) => (
     "
   />
   <path
-    style={{strokeWidth: '3px', fill: '#fff', stroke: '#000'}}
+    style={{strokeWidth: '3px', fill: '#fff', stroke: '#fff'}}
     d="M1397.2,1671.3l-0.6,1.1l0,0l-1-0.7l-0.2-0.1l-2.2-1.5l-4-5.9"
   />
   <path
-    style={{strokeWidth: '3px', fill: '#fff', stroke: '#000'}}
+    style={{strokeWidth: '3px', fill: '#fff', stroke: '#fff'}}
     d="M1738.4,1776l-2.1,0.2l-0.9,0.1l-0.8,0.1l-0.5,0l-1.5-1.5
     l-0.5-2l0-0.1l0.3-2.4l0.4-0.9l0.5-1l1.5-1.7"
   />
   <path
-    style={{strokeWidth: '3px', fill: '#FFF', stroke:'#000', strokeLinecap:'square'}}
+    style={{strokeWidth: '3px', fill: '#FFF', stroke:'#fff', strokeLinecap:'square'}}
     d="M1394.7,1622.8l-1.2,0l3,0h0l0,0l0,0.2"
   />
 </svg>
