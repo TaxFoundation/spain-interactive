@@ -1,10 +1,12 @@
 import React from 'react';
 
+import Spain from './map';
+import data from './data.json';
+
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-      </header>
+      <Spain {...data} />
     </div>
   );
 }
