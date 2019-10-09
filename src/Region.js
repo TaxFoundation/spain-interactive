@@ -19,7 +19,7 @@ const Region = ({ dataFor, theData, path }) => (
       theData &&
       `
       <table>
-        <caption style="border-bottom: 1px solid #000; margin-bottom: 8px; padding-bottom: 8px;">${theData.name}</caption>
+        <caption>${theData.name}</caption>
         <thead>
           <tr>
             <th>Puesto</th>

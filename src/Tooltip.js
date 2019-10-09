@@ -8,7 +8,7 @@ const StyledTooltip = styled(ReactTooltip)`
   color: #333 !important;
   font-family: 'Lato', sans-serif !important;
   font-size: 1rem !important;
-  max-width: 300px !important;
+  max-width: 350px !important;
   &.place-bottom {
     &:after {
       border-bottom-color: #fff !important;
@@ -36,6 +36,18 @@ const StyledTooltip = styled(ReactTooltip)`
       border-top-style: solid !important;
       border-top-width: 6px !important;
     }
+  }
+
+  caption {
+    border-bottom: 1px solid #000;
+    margin-bottom: 8px;
+    padding-bottom: 8px;
+  }
+
+  th,
+  td {
+    padding: 5px;
+    text-align: center;
   }
 `;
 
