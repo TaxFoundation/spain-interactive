@@ -7,11 +7,18 @@ import Tooltip from './Tooltip';
 
 const App = () => (
   <div>
+    <h1
+      style={{ fontFamily: '"Trebuchet MS", sans-serif', textAlign: 'center' }}
+    >
+      Mapa de Competitividad Fiscal Autonómica 2019
+    </h1>
     <svg
       x="0px"
       y="0px"
       viewBox="0 0 3300 1885"
-      style={{ strokeWidth: '3px', enableBackground: 'new 0 0 3300 1885' }}
+      style={{
+        enableBackground: 'new 0 0 3300 1885',
+      }}
     >
       {paths.map((path, i) => {
         if (data[path.id]) {
