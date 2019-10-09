@@ -4,6 +4,7 @@ import data from './data.json';
 import paths from './paths.json';
 import Region from './Region.js';
 import Tooltip from './Tooltip';
+import PresentationalShapes from './PresentationalShapes';
 
 const App = () => (
   <div>
@@ -33,14 +34,7 @@ const App = () => (
         }
         return <Region path={path.d} key={`path-${i}`}></Region>;
       })}
-      <rect
-        x="75.4"
-        y="1446.9"
-        width="743.1"
-        height="364.8"
-        fill="transparent"
-        stroke="#bbb"
-      />
+      <PresentationalShapes />
     </svg>
     <Tooltip id="tooltip" />
   </div>
