@@ -11,18 +11,35 @@ const scale = scaleLinear()
 
 const color = value => interpolateYlOrRd(scale(value));
 
-const Region = ({ dataFor, theData, path }) => {
-  console.log(theData);
-  return (
-    <path
-      data-for={dataFor}
-      data-tip={theData ? `${theData.name} is ranked ${theData.score}` : null}
-      d={path}
-      fill={theData ? color(theData.score) : '#bbb'}
-      style={{ stroke: '#fff', strokeWidth: '3px' }}
-    />
-  );
-};
+const Region = ({ dataFor, theData, path }) => (
+  <path
+    data-for={dataFor}
+    data-html
+    data-tip={
+      theData &&
+      `
+      <table>
+        <caption style="border-bottom: 1px solid #000; margin-bottom: 8px; padding-bottom: 8px;">${theData.name}</caption>
+        <thead>
+          <tr>
+            <th>Puesto</th>
+            <th>Valor</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>${theData.puesto}</td>
+            <td>${theData.valor}</td>
+          </tr>
+        </tbody>
+      </table>
+      `
+    }
+    d={path}
+    fill={theData ? color(theData.puesto) : '#bbb'}
+    style={{ stroke: '#fff', strokeWidth: '3px' }}
+  />
+);
 
 Region.propTypes = {
   path: PropTypes.string.isRequired,
