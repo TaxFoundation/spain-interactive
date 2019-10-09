@@ -7,7 +7,7 @@ const PresentationalShapes = () => (
       y="1446.9"
       width="743.1"
       height="364.8"
-      fill="transparent"
+      fill="none"
       stroke="#bbb"
     />
     <g opacity="0.35">
