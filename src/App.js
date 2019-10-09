@@ -26,6 +26,14 @@ const App = () => (
         }
         return <Region path={path.d} key={`path-${i}`}></Region>;
       })}
+      <rect
+        x="75.4"
+        y="1446.9"
+        width="743.1"
+        height="364.8"
+        fill="transparent"
+        stroke="#bbb"
+      />
     </svg>
     <Tooltip id="tooltip" />
   </div>
