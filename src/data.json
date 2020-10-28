@@ -1,97 +1,100 @@
 {
-  "alava": {
-    "puesto": 3,
-    "name": "Álava / Araba",
-    "valor": 7.1
-  },
-  "andalucia": {
-    "puesto": 11,
-    "name": "Andalucía",
-    "valor": 5.89
-  },
-  "aragon": {
-    "puesto": 17,
-    "name": "Aragón",
-    "valor": 5.21
-  },
-  "asturius": {
-    "puesto": 18,
-    "name": "Asturias",
-    "valor": 5.18
-  },
-  "baleares": {
-    "puesto": 12,
-    "name": "Baleares ",
-    "valor": 5.89
-  },
-  "canarias": {
-    "puesto": 5,
-    "name": "Canarias",
-    "valor": 6.41
-  },
-  "cantabria": {
-    "puesto": 9,
-    "name": "Cantabria",
-    "valor": 5.94
-  },
-  "castillaLaMancha": {
-    "puesto": 7,
-    "name": "Castilla-La Mancha",
-    "valor": 6.05
-  },
-  "castillaYLeon": {
-    "puesto": 13,
-    "name": "Castilla y León",
-    "valor": 5.84
-  },
-  "catalunya": {
-    "puesto": 19,
-    "name": "Cataluña",
-    "valor": 4.66
-  },
-  "extremadura": {
-    "puesto": 15,
-    "name": "Extremadura",
-    "valor": 5.44
-  },
-  "galicia": {
-    "puesto": 10,
-    "name": "Galicia",
-    "valor": 5.92
-  },
-  "guipuzcoa": {
-    "puesto": 4,
-    "name": "Guipúzcoa / Gipuzkoa",
-    "valor": 6.93
-  },
-  "laRioja": {
-    "puesto": 6,
-    "name": "La Rioja",
-    "valor": 6.12
-  },
-  "madrid": {
-    "puesto": 1,
-    "name": "Madrid",
-    "valor": 7.22
-  },
-  "murcia": {
-    "puesto": 8,
-    "name": "Murcia",
-    "valor": 5.99
-  },
-  "navarra": {
-    "puesto": 14,
-    "name": "Navarra",
-    "valor": 5.72
-  },
-  "valencia": {
-    "puesto": 16,
-    "name": "Valenciana",
-    "valor": 5.36
-  },
-  "vizcaya": {
-    "puesto": 2,
-    "name": "Vizcaya / Bizkaia",
-    "valor": 7.15
+  "year": 2020,
+  "ranks": {
+    "alava": {
+      "puesto": 3,
+      "name": "Álava / Araba",
+      "valor": 7.1
+    },
+    "andalucia": {
+      "puesto": 11,
+      "name": "Andalucía",
+      "valor": 5.89
+    },
+    "aragon": {
+      "puesto": 17,
+      "name": "Aragón",
+      "valor": 5.21
+    },
+    "asturius": {
+      "puesto": 18,
+      "name": "Asturias",
+      "valor": 5.18
+    },
+    "baleares": {
+      "puesto": 12,
+      "name": "Baleares ",
+      "valor": 5.89
+    },
+    "canarias": {
+      "puesto": 5,
+      "name": "Canarias",
+      "valor": 6.41
+    },
+    "cantabria": {
+      "puesto": 9,
+      "name": "Cantabria",
+      "valor": 5.94
+    },
+    "castillaLaMancha": {
+      "puesto": 7,
+      "name": "Castilla-La Mancha",
+      "valor": 6.05
+    },
+    "castillaYLeon": {
+      "puesto": 13,
+      "name": "Castilla y León",
+      "valor": 5.84
+    },
+    "catalunya": {
+      "puesto": 19,
+      "name": "Cataluña",
+      "valor": 4.66
+    },
+    "extremadura": {
+      "puesto": 15,
+      "name": "Extremadura",
+      "valor": 5.44
+    },
+    "galicia": {
+      "puesto": 10,
+      "name": "Galicia",
+      "valor": 5.92
+    },
+    "guipuzcoa": {
+      "puesto": 4,
+      "name": "Guipúzcoa / Gipuzkoa",
+      "valor": 6.93
+    },
+    "laRioja": {
+      "puesto": 6,
+      "name": "La Rioja",
+      "valor": 6.12
+    },
+    "madrid": {
+      "puesto": 1,
+      "name": "Madrid",
+      "valor": 7.22
+    },
+    "murcia": {
+      "puesto": 8,
+      "name": "Murcia",
+      "valor": 5.99
+    },
+    "navarra": {
+      "puesto": 14,
+      "name": "Navarra",
+      "valor": 5.72
+    },
+    "valencia": {
+      "puesto": 16,
+      "name": "Valenciana",
+      "valor": 5.36
+    },
+    "vizcaya": {
+      "puesto": 2,
+      "name": "Vizcaya / Bizkaia",
+      "valor": 7.15
+    }
   }
 }

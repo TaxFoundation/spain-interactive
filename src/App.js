@@ -11,7 +11,7 @@ const App = () => (
     <h1
       style={{ fontFamily: '"Trebuchet MS", sans-serif', textAlign: 'center' }}
     >
-      Mapa de Competitividad Fiscal Autonómica 2020
+      {`Mapa de Competitividad Fiscal Autonómica ${data.year}`}
     </h1>
     <svg
       x="0px"
@@ -22,10 +22,10 @@ const App = () => (
       }}
     >
       {paths.map((path, i) => {
-        if (data[path.id]) {
+        if (data.ranks[path.id]) {
           return (
             <Region
-              theData={data[path.id]}
+              theData={data.ranks[path.id]}
               dataFor="tooltip"
               path={path.d}
               key={path.id}
@@ -34,7 +34,7 @@ const App = () => (
         }
         return <Region path={path.d} key={`path-${i}`}></Region>;
       })}
-      <PresentationalShapes />
+      <PresentationalShapes year={data.year} />
     </svg>
     <Tooltip id="tooltip" />
   </div>
