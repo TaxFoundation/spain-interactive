@@ -11,7 +11,7 @@ const App = () => (
     <h1
       style={{ fontFamily: '"Trebuchet MS", sans-serif', textAlign: 'center' }}
     >
-      Mapa de Competitividad Fiscal Autonómica 2019
+      Mapa de Competitividad Fiscal Autonómica 2020
     </h1>
     <svg
       x="0px"

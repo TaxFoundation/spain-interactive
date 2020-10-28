@@ -310,7 +310,7 @@ const PresentationalShapes = () => (
         fontFamily="'Trebuchet MS', sans-serif"
         fontSize="36px"
       >
-        Avance de la Libertad, 2019. Autora del estudio: Cristina Enache.
+        Avance de la Libertad, 2020. Autora del estudio: Cristina Enache.
         Descargue el{' '}
       </tspan>
       <tspan
