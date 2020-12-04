@@ -1,6 +1,6 @@
 import React from 'react';
 
-const PresentationalShapes = () => (
+const PresentationalShapes = ({ year }) => (
   <>
     <rect
       x="75.4"
@@ -310,8 +310,8 @@ const PresentationalShapes = () => (
         fontFamily="'Trebuchet MS', sans-serif"
         fontSize="36px"
       >
-        Avance de la Libertad, 2019. Autora del estudio: Cristina Enache.
-        Descargue el{' '}
+        {`Avance de la Libertad, ${year}. Autora del estudio: Cristina Enache.
+        Descargue el `}
       </tspan>
       <tspan
         x="0"

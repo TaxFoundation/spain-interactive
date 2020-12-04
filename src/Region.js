@@ -6,7 +6,7 @@ import { interpolateYlOrRd } from 'd3-scale-chromatic';
 import data from './data.json';
 
 const scale = scaleLinear()
-  .domain([0, Object.keys(data).length])
+  .domain([0, Object.keys(data.ranks).length])
   .range([0, 1]);
 
 const color = value => interpolateYlOrRd(scale(value));
