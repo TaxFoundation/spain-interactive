@@ -1,100 +1,100 @@
 {
-  "year": 2022,
+  "year": 2023,
   "ranks": {
     "alava": {
-      "puesto": 3,
+      "puesto": 2,
       "name": "Álava / Araba",
-      "valor": 7.07
+      "valor": "7,04"
     },
     "andalucia": {
-      "puesto": 7,
+      "puesto": 5,
       "name": "Andalucía",
-      "valor": 6.19
+      "valor": "6,57"
     },
     "aragon": {
-      "puesto": 17,
+      "puesto": 16,
       "name": "Aragón",
-      "valor": 5.08
+      "valor": "5,17"
     },
     "asturius": {
-      "puesto": 16,
+      "puesto": 17,
       "name": "Asturias",
-      "valor": 5.10
+      "valor": "5,03"
     },
     "baleares": {
       "puesto": 14,
       "name": "Baleares ",
-      "valor": 5.74
+      "valor": "5,70"
     },
     "canarias": {
-      "puesto": 5,
+      "puesto": 8,
       "name": "Canarias",
-      "valor": 6.29
+      "valor": "6,24"
     },
     "cantabria": {
-      "puesto": 13,
+      "puesto": 12,
       "name": "Cantabria",
-      "valor": 5.86
+      "valor": "5,77"
     },
     "castillaLaMancha": {
-      "puesto": 12,
+      "puesto": 11,
       "name": "Castilla-La Mancha",
-      "valor": 5.91
+      "valor": "5,82"
     },
     "castillaYLeon": {
-      "puesto": 6,
+      "puesto": 7,
       "name": "Castilla y León",
-      "valor": 6.24
+      "valor": "6,24"
     },
     "catalunya": {
       "puesto": 19,
       "name": "Cataluña",
-      "valor": 4.57
+      "valor": "4,71"
     },
     "extremadura": {
       "puesto": 15,
       "name": "Extremadura",
-      "valor": 5.39
+      "valor": "5,51"
     },
     "galicia": {
-      "puesto": 8,
+      "puesto": 9,
       "name": "Galicia",
-      "valor": 6.16
+      "valor": "6,10"
     },
     "guipuzcoa": {
       "puesto": 4,
       "name": "Guipúzcoa / Gipuzkoa",
-      "valor": 6.91
+      "valor": "6,82"
     },
     "laRioja": {
-      "puesto": 9,
+      "puesto": 10,
       "name": "La Rioja",
-      "valor": 6.01
+      "valor": "5,94"
     },
     "madrid": {
       "puesto": 1,
       "name": "Madrid",
-      "valor": 7.43
+      "valor": "7,33"
     },
     "murcia": {
-      "puesto": 10,
+      "puesto": 6,
       "name": "Murcia",
-      "valor": 6.00
+      "valor": "6,28"
     },
     "navarra": {
-      "puesto": 11,
+      "puesto": 13,
       "name": "Navarra",
-      "valor": 5.92
+      "valor": "5,76"
     },
     "valencia": {
       "puesto": 18,
       "name": "Valenciana",
-      "valor": 5.02
+      "valor": "5,00"
     },
     "vizcaya": {
-      "puesto": 2,
+      "puesto": 3,
       "name": "Vizcaya / Bizkaia",
-      "valor": 7.11
+      "valor": "6,97"
     }
   }
 }
