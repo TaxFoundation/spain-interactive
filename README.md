@@ -37,6 +37,19 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
+## Step-by-step Update Guide
+
+1. Open the [spain-interactive repository](https://github.com/TaxFoundation/spain-interactive) in GitHub desktop, create a new branch labeled `**[current year]**-data-update`, click “Show in Explorer” in GitHub, copy file path from explorer, switch to that directory in the console.
+2. In the console:
+    1. run 'npm install --legacy-peer-deps'
+    2. run 'npm start'
+3. If map does not open in your browser automatically, go to address specified by npm start (should be localhost:3000).
+4. Update data.json file with current-year data.
+5. Refresh the map in your browser and verify that it still works and all of the data is correct.
+6. Open a pull request for your branch. Doing so will automatically run a number of Netlify checks. The Netlify project is [here](https://app.netlify.com/sites/spain-taxes/deploys/64efb420cbfab00a81820303).
+7. If there are no errors, click “Deploy Preview” in Netlify and check again that all formatting and data are correct.
+8. Wait to “Publish deploy” until the data should go live, in coordination with release of study.
+
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
